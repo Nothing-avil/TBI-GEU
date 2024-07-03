@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandarbh Singhal</title>
+    <link rel="stylesheet" href="first.css">
+    <link rel="stylesheet" href="second.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Sandarbh Singhal</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="Knowledge.html" style="text-decoration:none; cursor: hand;">Knowledge</a></li>
+                <li><a href="projects.html" style="text-decoration:none;cursor: hand;">Projects</a></li>
+                <li><a href="contact.html" style="text-decoration:none;cursor: hand;">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Sandarbh Singhal</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="Knowledge.html" onclick="toggleMenu()">Knowledge</a></li>
+                <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="profile.png" alt="profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Sandarbh Singhal</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+        </div>
+    </section>
+
+    <div class="check">
+        <section id="about">
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div id="loop">
+                    <h1><b>Full</b> Stack <span>Web</span> <i>Developer</i> &nbsp;</h1>
+                    <h1><b>Full</b> Stack <span>Web</span> <i>Developer </i> &nbsp;</h1>
+                    <h1><b>Full</b> Stack <span>Web</span> <i>Developer </i> &nbsp;</h1>
+                </div>
+                <div class="section__pic-container">
+                    <img src="https://avatars.githubusercontent.com/u/123533242?s=400&u=d0699c78624e59d13241858418626feced5d3831&v=4"
+                        alt="Profile picture" class="about-pic" />
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <h1>Hi There! <span>👋🏻</span></h1>
+                            <h1>I'M<strong> SANDARBH SINGHAL</strong></h1>
+                        </div>
+                    </div>
+                    <div class="text-container details-container ">
+                        <p>
+                            I am a passionate and driven technical student dedicated to exploring the intersection
+                            of<br>
+                            artificial intelligence and Cyber Security. Currently pursuing a Bachelor's degree in
+                            Computer
+                            Science
+                            at
+                            Graphic Era Hill<br>
+                            University, I has a keen interest in Web Development and also interested in creating
+                            engaging
+                            and
+                            user-friendly web experiences..<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+
+    <footer class="main-footer">
+        <div class="main-container">
+            <div class="main-footer__upper">
+                <div class="main-footer__row main-footer__row-1">
+                    <h2 class="heading heading-sm main-footer__heading-sm">
+                        <span>Social</span>
+                    </h2>
+                    <div class="main-footer__social-cont">
+                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sandarbh-singhal/">
+                            <img class="main-footer__icon"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLrzzMgXA2lFOromlFFMAr7wm43DF4Qa5NqDAedR_ZKA&s"
+                                alt="icon" />
+                        </a>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/Nothing-avil">
+                            <img class="main-footer__icon"
+                                src="https://static-00.iconduck.com/assets.00/github-icon-2048x1988-jzvzcf2t.png"
+                                alt="icon" />
+                        </a>
+                        <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sandarbh2002/">
+                            <img class="main-footer__icon main-footer__icon--mr-none"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWImQ2qh-fHH1S3rcPvwmneNDRm_LaXTslPyqgy29d8A&s"
+                                alt="icon" />
+                        </a>
+                    </div>
+                    <br><br>
+                    <div class="display-date">
+                        <span id="day">day</span>,
+                        <span id="daynum">00</span>
+                        <span id="month">month</span>
+                        <span id="year">0000</span>
+                    </div>
+                    <div class="display-time"></div>
+                </div>
+                <div class="main-footer__row main-footer__row-2">
+                    <h4 class="heading heading-sm text-lt">Designed and Developed by Sandarbh Singhal</h4>
+                    <p class="main-footer__short-desc">
+                    </p>
+                </div>
+            </div>
+            <div class="main-footer__lower">
+                Copyright &copy; 2024 SS
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

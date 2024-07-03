@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandarbh Singhal</title>
+    <link rel="stylesheet" href="first.css">
+    <link rel="stylesheet" href="second.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Sandarbh Singhal</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="first.html" style="text-decoration:none;cursor: hand;">About</a></li>
+                <li><a href="Knowledge.html" style="text-decoration:none; cursor: hand;">Knowledge</a></li>
+                <li><a href="projects.html" style="text-decoration:none;cursor: hand;">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Sandarbh Singhal</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="first.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="Knowledge.html" onclick="toggleMenu()">Knowledge</a></li>
+                <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="contact">
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="https://tangerine-hummingbird-1479b6.netlify.app/assets/email.png" alt="Email icon"
+                    class="icon contact-icon email-icon" />
+                <p><a href="mailto:sandarbhsinghal123@gmail.com">sandarbhsinghal123@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="https://tangerine-hummingbird-1479b6.netlify.app/assets/linkedin.png" alt="LinkedIn icon"
+                    height="35" width="40" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com/in/sandarbh-singhal/">LinkedIn</a></p>
+            </div>
+            <br>
+            <div class="contact-info-container2">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png"
+                    height="35" width="40" alt="Github icon" class="icon contact-icon" />
+                <p><a href="https://github.com/Nothing-avil">Github</a></p>
+            </div>
+            <div class="contact-info-container2">
+                <img src="https://i.pinimg.com/originals/63/9b/3d/639b3dafb544d6f061fcddd2d6686ddb.png" height="35"
+                    width="40" alt="Instagram icon" class="icon contact-icon" />
+                <p><a href="https://www.instagram.com/sandarbh2002/">Instagram</a></p>
+            </div>
+        </div>
+        <br><br><br><br>
+        <div class="contact__container">
+            <div class="contact_contect">
+                <h2 class="section__text__p2 section__text__p1">Hire ME</h2>
+                <p class="section__text contact_des">I am available for freelance work. Phone No: <a
+                        href="tel:+918449107435">8449107435</a>
+                    or email to: <a href="mailto:sandarbhsinghal123@gmail.com">sandarbhsinghal123@gmail.com</a></p>
+            </div>
+        </div>
+        <br><br><br>
+
+        <div class="form-container">
+            <form class="form" id="_forms">
+                <div class="form-group">
+                    <label for="name">Your Name: </label>
+                    <input name="name" id="name" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email: </label>
+                    <input name="email" id="email" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="message">Write your message: </label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <button type="submit" class="form-submit-btn" onclick="cheack()">Submit</button>
+
+                <p class="form-group" id="thank"></p>
+                <label class="form-group" id="error" style="color: red;"></label>
+            </form>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="main-container">
+            <div class="main-footer__upper">
+                <div class="main-footer__row main-footer__row-1">
+                    <h2 class="heading heading-sm main-footer__heading-sm">
+                        <span>Social</span>
+                    </h2>
+                    <div class="main-footer__social-cont">
+                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sandarbh-singhal/">
+                            <img class="main-footer__icon"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLrzzMgXA2lFOromlFFMAr7wm43DF4Qa5NqDAedR_ZKA&s"
+                                alt="icon" />
+                        </a>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/Nothing-avil">
+                            <img class="main-footer__icon"
+                                src="https://static-00.iconduck.com/assets.00/github-icon-2048x1988-jzvzcf2t.png"
+                                alt="icon" />
+                        </a>
+                        <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sandarbh2002/">
+                            <img class="main-footer__icon main-footer__icon--mr-none"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWImQ2qh-fHH1S3rcPvwmneNDRm_LaXTslPyqgy29d8A&s"
+                                alt="icon" />
+                        </a>
+                    </div>
+                    <br><br>
+                    <div class="display-date">
+                        <span id="day">day</span>,
+                        <span id="daynum">00</span>
+                        <span id="month">month</span>
+                        <span id="year">0000</span>
+                    </div>
+                    <div class="display-time"></div>
+                </div>
+                <div class="main-footer__row main-footer__row-2">
+                    <h4 class="heading heading-sm text-lt">Designed and Developed by Sandarbh Singhal</h4>
+                    <p class="main-footer__short-desc">
+                    </p>
+                </div>
+            </div>
+            <div class="main-footer__lower">
+                Copyright &copy; 2024 SS
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
